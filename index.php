@@ -1,6 +1,8 @@
 <?php
 $klas = ["Piet van Dijk", "Rembrandt van Rijn", "Vincent van Gogh", "Floris van Dyck"]; 
 
+print_r($klas);
+
 for($i=0; $i < count($klas); $i++){
 	echo $klas[$i].PHP_EOL;
 }
